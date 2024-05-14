@@ -3,7 +3,62 @@ guid: d4c766992c973264291408cd30db10f8
 ModelImporter:
   serializedVersion: 22102
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: base cobblestone
+    second: {fileID: 2100000, guid: dff361457c303c743ac5d6c0522e9713, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: brick shoji
+    second: {fileID: 2100000, guid: c6653fc3f88774f4b8f3fe660c5a8e73, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: conrete
+    second: {fileID: 2100000, guid: 048c59f6611e5fd40839606b501c492b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: emission
+    second: {fileID: 2100000, guid: 9a6192ac13d2275439a93643f59db2ca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: floor plank wood
+    second: {fileID: 2100000, guid: aa6fe77db6c60e74b8a76232e203d81e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lamp
+    second: {fileID: 2100000, guid: 317aa064724846e4bbe7547fbee22ae7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal
+    second: {fileID: 2100000, guid: 5538d14760735f849970fc5467d71bfe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: painted wood support
+    second: {fileID: 2100000, guid: 920977fd28688fc428a6af80ba8ae17f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: red wood
+    second: {fileID: 2100000, guid: 0a43f696164e47343993030c289b7ff9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: roof
+    second: {fileID: 2100000, guid: 3d8073480ccaa994e9a190337b35b152, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: white painted wod
+    second: {fileID: 2100000, guid: c8ceae6c2ee25974f8121099dcf4d47d, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
