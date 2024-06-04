@@ -1408,8 +1408,8 @@ GameObject:
   - component: {fileID: 98853394}
   - component: {fileID: 98853393}
   - component: {fileID: 98853392}
-  - component: {fileID: 98853396}
   - component: {fileID: 98853397}
+  - component: {fileID: 98853398}
   m_Layer: 0
   m_Name: StartFinishObject
   m_TagString: Untagged
@@ -1495,20 +1495,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &98853396
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 98853391}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d038fa85940953e4db996e69ca07512a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  totalLaps: 3
-  lapCounterText: {fileID: 896402989}
 --- !u!114 &98853397
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1522,6 +1508,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lapTimeText: {fileID: 1321120092}
+--- !u!114 &98853398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 98853391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 705a9a77e7db9864aa4fe1fab772de0a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lapText: {fileID: 896402989}
+  lapAmount: 3
 --- !u!1 &104236525
 GameObject:
   m_ObjectHideFlags: 0
@@ -11503,7 +11503,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Lap: 0/3'
+  m_Text: 'Lap:'
 --- !u!222 &896402990
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -17751,7 +17751,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 33f6882cf4072a34ea492f6cb85f0bc0, type: 3}
     m_FontSize: 45
     m_FontStyle: 0
     m_BestFit: 0
