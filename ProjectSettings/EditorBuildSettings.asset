@@ -4,5 +4,17 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 83c625a9ad911d0409ccc6dd1e8292fb
+  - enabled: 1
+    path: Assets/Scenes/LevelSelectScene.unity
+    guid: 24b695e98c68fd34a8cbd65ef89e8f34
+  - enabled: 1
+    path: Assets/Scenes/DraftLevels/Highway1.unity
+    guid: 8b618df0365316444a2a5c1047565f14
+  - enabled: 1
+    path: Assets/Scenes/RTGTest.unity
+    guid: bf34fe56efe683d44a69455ce09a13ec
   m_configObjects: {}
