@@ -8,7 +8,7 @@ public class MainMenuScript : MonoBehaviour
     // Method to load the racing scene (nah it's not really a racing scene, it's just there to trick the player
     public void StartRace()
     {
-        SceneManager.LoadScene("RacingScene"); // Replace later
+        SceneManager.LoadScene("LevelSelectScene"); // Replace later
     }
 
     // Method to load the settings scene

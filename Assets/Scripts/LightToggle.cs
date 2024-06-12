@@ -10,19 +10,19 @@ public class LightToggle : MonoBehaviour
 
     private bool areToggleLightsOn = false;
 
-    private void Start()
-    {
-        // Ensure all lights are off by default
-        foreach (Light light in toggleLights)
-        {
-            light.enabled = false;
-        }
+    //private void Start()
+    //{
+    //    // Ensure all lights are off by default
+    //    foreach (Light light in toggleLights)
+    //    {
+    //        light.enabled = false;
+    //    }
 
-        foreach (Light light in holdLights)
-        {
-            light.enabled = false;
-        }
-    }
+    //    foreach (Light light in holdLights)
+    //    {
+    //        light.enabled = false;
+    //    }
+    //}
 
     private void Update()
     {
