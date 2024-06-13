@@ -37,7 +37,7 @@ public class LapTrigger : MonoBehaviour
         {
              playerCurrentLap = playerLastLap + 1; // Increment player lap
 
-            if (/*playerCurrentLap > lapAmount && */playerCurrentLap == 1 && aicurrentLap == 0) // Check if race is finished (replace with your total laps variable)
+            if (/*playerCurrentLap > lapAmount && */playerCurrentLap == 5 && aicurrentLap == 4) // Check if race is finished (replace with your total laps variable)
             {
                 winMenuUI.SetActive(true);
                 Time.timeScale = 0f;
@@ -66,7 +66,7 @@ public class LapTrigger : MonoBehaviour
         {
             aicurrentLap = aiLastLap + 1; // Increment AI lap
 
-            if (/*aicurrentLap > lapAmount && */aicurrentLap == 1 && playerCurrentLap == 0)
+            if (/*aicurrentLap > lapAmount && */aicurrentLap == 5 && playerCurrentLap == 4)
             {
                 loseMenuUI.SetActive(true);
                 Time.timeScale = 0f;

@@ -1445,7 +1445,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lapText: {fileID: 896402989}
-  lapAmount: 1
+  lapAmount: 4
   winMenuUI: {fileID: 1132544188}
   loseMenuUI: {fileID: 2104563870}
   otherUIElements:
